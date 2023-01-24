@@ -5,24 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chik-Chik</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <img class="header__logo" src="/images/logo.svg" alt="Логотив барбершоп Chik-Chik">
+    <div class="container ">
+      <div class="header__container">
 
-      <nav class="header__navigation navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#price" class="navigation__link">Cтоимость услуг</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#about" class="navigation__link">О нас</a>
-          </li>
-        </ul>
-      </nav>
+        <img class="header__logo" src="/images/logo.svg" alt="Логотив барбершоп Chik-Chik">
 
-      <a href="#reserve" class="header__link main-link">Записаться</a>
+        <nav class="header__navigation navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#price" class="navigation__link">Cтоимость услуг</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about" class="navigation__link">О нас</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#reserve" class="header__link main-link">Записаться</a>
+      </div>
     </div>
   </header>
 
@@ -298,7 +302,7 @@
               </fieldset>
             </fieldset>
           </div>
-          <button class="reserve__btn main-link">Записаться</button>
+          <button class="reserve__btn main-link" disabled>Записаться</button>
         </form>
       </div>
     </section>
